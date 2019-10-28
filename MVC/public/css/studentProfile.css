@@ -1,0 +1,38 @@
+.profileBox{
+    background-color: #343a40;
+    box-shadow: 10px 8px 91px #565252;
+    margin-top: 113px;
+    border-radius: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+.profDescript {
+    font-size: 25px;
+    color:   #929fdc;
+}
+
+.profDescript span{
+    display: block;
+    font-size: 15px;
+    color: #4892ff;
+    margin-left: 15px;
+}
+
+.moreInfo {
+    margin-top: 20px;
+}
+
+.profileImg {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.studentName {
+    font-size: 60px;
+    color:  #929fdc;;
+}
+

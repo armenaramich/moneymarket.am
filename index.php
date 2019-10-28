@@ -16,6 +16,7 @@ spl_autoload_register('my_autoloader');
 
 require 'controller/StudentController.php';
 require 'controller/TeacherController.php';
+require 'controller/LoginController.php';
 //$app = new Boostrap();
 //
 //$myModel= new Model();

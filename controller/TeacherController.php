@@ -15,5 +15,4 @@ class TeacherController extends Controller
     public function index(){
         $this->view->render('teacher/index');
     }
-    echo 'ffff';
 }

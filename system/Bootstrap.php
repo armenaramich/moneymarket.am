@@ -6,17 +6,18 @@ class Bootstrap {
     {
 //        echo '<PRE>'; print_r($_GET);
         $url = isset($_GET) ? $_GET : [];
-//        print_r($ctrl);die();
+        //print_r($url);die();
 
         if (empty($url)){
-            require 'controller/HomeController.php';
-            $home= new HomeController();
+            require 'controller/LoginController.php';
+            $home= new LoginController();
             $home->index();
             return false;
         }
         if (count($url)==1 && isset($url['controller'])){
             $contr = ucfirst($url['controller']).'Controller';
             $controller = new $contr;
+
             $controller->index();
             return false;
 

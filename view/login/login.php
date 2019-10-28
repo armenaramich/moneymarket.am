@@ -1,5 +1,5 @@
     <?php if(isset($this->msg)) echo $this->msg; ?>
-    <form action="login/login" method="post">
+    <form action="index.php?controller=login&action=doLogin" method="post">
         <label class="login-label">
             <input type="text" name="username" placeholder="Username">
         </label>
